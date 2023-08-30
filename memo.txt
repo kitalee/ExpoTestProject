@@ -2,3 +2,5 @@
 -react native에서 스타일링은 child에 상속되지 않는다
 -모바일에서는 컨텐츠가 화면을 넘어서더라도 자동으로 스크롤이 생기지 않음. ScrollView사용 필요
 -안드로이드/IOS 공통 또는 고유 속성들이 있음
+-ScrollView 는 모든 항목을 렌더링하기에 항목이 많을경우 성능이슈 생길수 있음 => FlatList 사용 권고
+-FlatList는 내부적으로 'key' prop을 찾아 렌더링한다
