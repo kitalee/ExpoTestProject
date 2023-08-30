@@ -1,0 +1,2 @@
+-iphone 에서 Text의 모서리를 둥글게 표현하려면 View로 감싸서 이 안에서 스타일을 적용해야함
+-react native에서 스타일링은 child에 상속되지 않는다
